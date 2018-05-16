@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "img"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,7 +20,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "vendor/bootstrap/css/bootstrap.min.css",
+        "vendor/font-awesome/css/font-awesome.min.css",
+        "vendor/simple-line-icons/css/simple-line-icons.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
