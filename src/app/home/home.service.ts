@@ -16,7 +16,7 @@ export class HomeService extends HttpBaseService {
     // }
 
     public SendEmail(model: any) {
-        const resource = 'Distributor';
+        const resource = 'Distributor/Process';
         return this.post(resource, model);
     }
 
